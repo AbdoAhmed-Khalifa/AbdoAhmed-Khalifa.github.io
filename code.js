@@ -3,11 +3,7 @@ let links = document.querySelector(".other-links");
 let mega = document.querySelector(".header .megaMenu");
 links.addEventListener("click", (e) => {
   e.preventDefault();
-  if (mega.style.opacity === "0") {
-    mega.style.opacity = "1";
-  } else {
-    mega.style.opacity = "0";
-  }
+  mega.classList.toggle("remove");
 });
 
 //awesome Stats

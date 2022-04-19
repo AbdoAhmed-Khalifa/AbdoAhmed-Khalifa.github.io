@@ -230,6 +230,9 @@ ul {
   -ms-transition: top var(--mainTransition), opacity var(--mainTransition);
   -o-transition: top var(--mainTransition), opacity var(--mainTransition);
 }
+.header .megaMenu.remove {
+  display: none;
+}
 @media (max-width: 767px) {
   .header .megaMenu {
     flex-direction: column;
